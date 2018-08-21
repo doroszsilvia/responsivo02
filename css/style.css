@@ -1,0 +1,60 @@
+/* GERAL */
+body {
+    background-color: rgb(179, 130, 186); /* 3 formas de buscar cores, por codigo ou por rgb*/
+
+    font-family: 'lato', Arial, Helvetica, sans-serif; /* fontes nativas*/
+    
+}
+
+h1, p, .btn-grupo{ 
+    text-align: right; /*alinhamento de texto*/
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+/* SEÇAO 1 */
+.secao {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* .seletor seleciona uma classe no html */
+.btn {
+    padding: 10px;
+    margin: 15px;
+}
+.btn-roxo {
+    background-color: purple;
+    color: white; /*color é cor do conteudo html*/
+
+border-radius: 3px;
+}
+
+.btn-transparente {
+    background-color: 
+    transparent;
+    color: purple;
+    border: 1px solid purple; 
+}
+
+@media (max-width: 768px) {
+    img {
+        display: block;
+        transform: rotate(270deg);
+        margin: 0 auto;
+        
+    }
+  }
+  @media (max-width: 768px) {
+    .secao {
+        display: block;
+        margin: o auto;
+    }
+        
+    }
+  
